@@ -1,11 +1,29 @@
 # build-full-stack-book-store-mern-app
+
 ![full-stack-book-store-mern-project](/frontend/src/assets/github-cover.png)
+
+## About This Project
+
+This is a full-stack MERN (MongoDB, Express, React, Node.js) Book Store application. It allows users to browse, search, and purchase books online, while providing an admin dashboard for managing inventory and orders.
+
+**Key Features:**
+- **User Authentication:** Secure login and registration using Firebase (with Google sign-in support).
+- **Book Catalog:** Browse, search, and filter books by genre or keyword.
+- **Shopping Cart:** Add books to your cart and place orders.
+- **Order Management:** Users can view their order history; admins can manage all orders.
+- **Admin Dashboard:** Admins can add, edit, or remove books, and view sales statistics.
+- **Responsive Design:** Works well on both desktop and mobile devices.
+
+The project demonstrates best practices in full-stack web development, including RESTful APIs, JWT authentication for admin routes, and modern React state management with Redux Toolkit Query.
+
+---
+
+*For setup and running instructions, see below.*
 
 ## How to run this project:
 
 ### For Frontend 
 Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
 * Go to the frontend directory by using the following command ``` cd frontend ```.
 * * create a **.env.local** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there:
 ```
@@ -24,7 +42,6 @@ VITE_APPID="1:205632822247:web:b0db0ec66bf6de0bbb3b42"
 
 ### For Backend
 Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
 * Go to the backend directory by using the following command ``` cd backend```.
 + Then run `` npm install `` commend to install node dependencies.
 * create a **.env** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there: 
